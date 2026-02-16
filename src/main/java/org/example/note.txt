@@ -1,0 +1,49 @@
+Data is everything.
+No metter the technology you are learning, you are learning it to work with data.
+We use programming language to process data
+We use database to store data
+   What is data structure?
+This is a way to organise and store data efficiently.
+   When we say efficiently?
+we are talking in terms of performance and Memory.
+    What are algorithms
+Set of instructions to perform a particular task.
+    pseudocode
+instructions/steps, and they can work on any language.
+    Types of data structure
+we have different types of data structure , but we need to understand when to use what.
+That is use a proper algorithm with a proper data structure.
+    Data
+A variable is used to store data. and the variable will have a type.
+Data types: the type of data a variable is storing/holding. and they are usually system defined data types called primitive data types.
+complex data types eg class: This is a user defined data type.
+    Abstract data type
+This is when you have a concept and operations to it and it has data in it.
+Meaning we can create our own data types and operations it can take.
+    Arrays
+Instead of storing different values in different variables,
+We can store all the values in a single variable called "Array".
+eg
+int[] numbers = {5, 4, 3, 2, 1}
+This data will be stored in a memory
+And every memory will have a memory location
+for primitive data,
+anytime we need the data, the program will jump to the memory location by searching for the address to get it.
+but for arrays,
+once the first element is stored in, it takes an index of 0. To get the rest element, you just have to add 1 to it.
+    Operations on an array
+1)Read operation: we use the arrayname[index], the computer will just to the memory address.
+This is a fast operation cos the computer already knows the memory location of the array and it uses the index to get the data.
+2)Search operation: In searching, we are not using the index and the computer doesnt know where the element is without the index.
+So we basically have to search each element.
+3)Insert operation: inserting at the end, We have to get the size of the array and add to +1 of the index.
+Inserting in between values: we have to create a new block at the end of the array and start moving the elements one by one till there is space to add inbetween.
+4)Deleting operation: deleting at the end is also faster.
+deleting in between will take alot of time cos you have to move the elements one by one and that depends on the number of elements in the array.
+    Time complexity
+The number of steps your code takes to perform the operation determines the time complexity.
+A good algorithm should be time efficient.
+The steps to solve a problem is called algorithm.
+To solve a problem, we have multiple solutions, but we have to pick the best one.
+The best one is the one that is less time-consuming.
+
