@@ -1,5 +1,5 @@
 Data is everything.
-No metter the technology you are learning, you are learning it to work with data.
+No matter the technology you are learning, you are learning it to work with data.
 We use programming language to process data
 We use database to store data
    What is data structure?
@@ -14,9 +14,10 @@ instructions/steps, and they can work on any language.
 we have different types of data structure , but we need to understand when to use what.
 That is use a proper algorithm with a proper data structure.
     Data
-A variable is used to store data. and the variable will have a type.
-Data types: the type of data a variable is storing/holding. and they are usually system defined data types called primitive data types.
-complex data types eg class: This is a user defined data type.
+A variable is used to store data and the variable will have a type.
+Data types: the type of data a variable is storing/holding. and there are system defined data types called primitive data types.
+complex data types eg class
+There are user defined data type.
     Abstract data type
 This is when you have a concept and operations to it and it has data in it.
 Meaning we can create our own data types and operations it can take.
@@ -40,10 +41,59 @@ So we basically have to search each element.
 Inserting in between values: we have to create a new block at the end of the array and start moving the elements one by one till there is space to add inbetween.
 4)Deleting operation: deleting at the end is also faster.
 deleting in between will take alot of time cos you have to move the elements one by one and that depends on the number of elements in the array.
-    Time complexity
+    Algorithm
 The number of steps your code takes to perform the operation determines the time complexity.
 A good algorithm should be time efficient.
 The steps to solve a problem is called algorithm.
 To solve a problem, we have multiple solutions, but we have to pick the best one.
 The best one is the one that is less time-consuming.
+The best one in this sense is the one that takes less memory or less time.
+    Algorithm analysis
+This is a way to make your algorithm more efficient
+As a developer, you must make sure first you application works, then you now optimize it.
+You can optimize in two ways
+1)Space complexity: an algorithm that use less memory
+2)Time complexity: an algorithm that takes less time.
+    How to use linear and binary search
+1)search an element in a sorted array
+we will use two solutions
+-linear search
+we go through the elements one by one and compare them with our target element.
+best case scenario, we are searching for an element at the beginning of our array, this will take one step
+worse case scenario, the element we are searching for is at the end, our steps will be in proportion with our array size.
+That is as your size increases, our number of steps to solve this problem increases too
+-binary search
+In binary search, we divide our array into two parts i.e. find the mid-value
+middle value = (start position - end position) / 2
+first check if the value you are searching for is the mid value
+if no check if it is less than the mid value
+if yes, our mid is now our end value and we will now divide the array into two using the mid value as the new end value
+check again if the mid value is the value you are searching for
+In worse case scenarios, binary search is faster than linear search.
+The binary search time complexity is not constant with increasing input and it is number of steps do not increase with the number of input so it is O(log n) Logarithmic Time.
+    Time complexity
+This is the measure of how the running time of an algorithm increases with the size of the input data.
+    How to calculate time complexity
+We use Big O Notation to understand the time complexity of an algorithm.
+-O(1): Constant Time
+-O(log n): Logarithmic Time
+-O(n): Linear Time
+-O(n log n): linearithmic Time
+-O(n^2): Quadratic Time
+-O(2^n): Exponential Time
+-O(n!): Factorial Time
+    constant time Big O(1)
+searching for a particular element in an array using its index is always done at constant time
+No matter the number of inputs, as long as you use the index to search for an element,the time is always constant.
+As long as the algorithm takes the same number of steps, no matter the size of the input we say it is done at constant time.
+    worse case scenario: what if the element we are looking for is at the end of the array
+That means as our array size increases, the number of steps also increases that will be Big O(n), n = number of elements in the array ie linear time
+Whenever building an algorithm, make sure it is between
+-O(1): Constant Time
+-O(log n): Logarithmic Time
+-O(n): Linear Time
+or else the application will struggle with increased number of input.
+    Practical implementation of linear search O(n) and binary search O(log n)
+We will have a list of element and we want to search for a particular element.
+
 
