@@ -95,5 +95,22 @@ Whenever building an algorithm, make sure it is between
 or else the application will struggle with increased number of input.
     Practical implementation of linear search O(n) and binary search O(log n)
 We will have a list of element and we want to search for a particular element.
+    Sorting techniques
+we have diffrent types, some of them are
+-Bubble sort
+-Insertion sort
+-Quick sort
+-selection sort
+-Merge sort
+-Radix sort
+-Heap sort
+-Bucket sort
+    Bubble sort
+This is not efficient, but it is easy to understand.
+You will compare two values at a time and then you will try to swap them
+continue the iteration till you sort them
+The time complexity is O(n^2) cos we have to use two loops, so it is not very efficient
+The outer loop is responsible for the number of iteration and the inner loop is responsible for swapping.
+
 
 
