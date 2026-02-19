@@ -1,6 +1,6 @@
 package org.example.sortting;
 
-public class Demo {
+public class Bubblesort {
     public static void main(String[] args) {
         int nums[] = {6, 5, 2, 8, 9, 4};
         int size = nums.length;

@@ -33,7 +33,7 @@ anytime we need the data, the program will jump to the memory location by search
 but for arrays,
 once the first element is stored in, it takes an index of 0. To get the rest element, you just have to add 1 to it.
     Operations on an array
-1)Read operation: we use the arrayname[index], the computer will just to the memory address.
+1)Read operation: we use the arrayname[index], the computer will just use the memory address.
 This is a fast operation cos the computer already knows the memory location of the array and it uses the index to get the data.
 2)Search operation: In searching, we are not using the index and the computer doesnt know where the element is without the index.
 So we basically have to search each element.
@@ -111,6 +111,11 @@ You will compare two values at a time and then you will try to swap them
 continue the iteration till you sort them
 The time complexity is O(n^2) cos we have to use two loops, so it is not very efficient
 The outer loop is responsible for the number of iteration and the inner loop is responsible for swapping.
-
-
+    selection sort
+In this type of sort, you find the minimum or maximum value and you make sure it stay at the start or end and the value there will swap position with it.
+We will find the second minimum or maximum value, and we will send it to the second end or second begining and sawp the  value previously there
+The time complexity is also O(n^2)
+    Insertion sort
+This method just takes the element and put them at the right location.
+We do not use swapping here, we use shifting
 
