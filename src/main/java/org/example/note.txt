@@ -118,4 +118,11 @@ The time complexity is also O(n^2)
     Insertion sort
 This method just takes the element and put them at the right location.
 We do not use swapping here, we use shifting
-
+The time complexity for this algorithm is Big O(n^2)
+    Quick sort
+The time complexity for this algorithm in the best case is O(n log(n)) and in the worse case is O(n^2).
+We do this using divide and conquer i.e we separate our problems and solve them separately then join them together.
+It also works with recursion
+recursion: calling a function by itself.
+pivot: This is a central point of a problem
+Tree: When we divide our problems into subsections, we are creating a tree structure.
