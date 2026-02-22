@@ -126,3 +126,30 @@ It also works with recursion
 recursion: calling a function by itself.
 pivot: This is a central point of a problem
 Tree: When we divide our problems into subsections, we are creating a tree structure.
+    Divide and conquer technique
+We divide first, we conquer and then we combine
+i.e we break the problems into subsections, we will apply the algorithm on each subsections and then we get a solution for each subsections and then you will merge to get your desired result.
+    Tree Structure
+That is a root element and branches from the root element.
+    Recursion
+A function is used to achieve a particular task.
+eg print, search, add2numbers, processPayment, all this happens with the help of functions.
+A function calling itself is called recursion.
+recursion can serve as a loop, all you have to do is add a condition so it can stop.
+example of a recursion is "find a factorial".
+    Merge sort
+This has a time complexity of O(n log(n)).
+This also follows the divine and conquer technique.
+The difficult part here is the merging.
+In this technique, we use the middle number i. the median
+median = (left index + right index)/ 2
+we use the median to divide the array into two
+from 0 - median and from after median to last index.
+You will divide the sub arrays into two again using the median
+you will continue dividing till you get individual values.
+after getting individual values, we conquer(sort the values)
+since they are single values, they are already sorted
+Then we merge
+But before merging, you compare the values
+
+
