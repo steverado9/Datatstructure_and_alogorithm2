@@ -41,6 +41,18 @@ public class Mergesort {
             }
             k++;
         }
+
+        while(i < n1) {
+            arr[k] = lArr[i];
+            i++;
+            k++;
+        }
+
+        while(j < n2) {
+            arr[k] = rArr[j];
+            j++;
+            k++;
+        }
     }
 
     public static void main(String[] args) {

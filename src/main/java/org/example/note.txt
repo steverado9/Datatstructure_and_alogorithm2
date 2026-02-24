@@ -151,5 +151,71 @@ after getting individual values, we conquer(sort the values)
 since they are single values, they are already sorted
 Then we merge
 But before merging, you compare the values
+    Linked list
+In linked list, the values are stored in a node.
+and the node takes a value(data) and an address(reference of the next node)
+The address stores a reference of the next node.
+what this does is that it links the nodes
+That is why it is called a linked list.
+Linklist have a list of values that are linked.
+We have inbuilt linklist in java and we can also create our own linkedlist class.
+    How to insert a new value in a linklist
+From the end
+-first create a new node
+-put a value and make the address will be null
+-then link it to the previous last element using the address so our new address will be the new last element.
+    Head
+Every link list have a head
+The head is a reference which is pointing to the first location(node)
+    Insert in between in a linklist
+-create a new node, it takes a value and an address
+-we will change the address of the middle value to the address of the new node created
+-And the address of the new node will be the address of the element after the middle value
+    How to remove a value in a linklist
+The address linking to the element you want to remove, change it to reference another node and the node without an address linking to it will be garbage collected.
+    Singly linked list
+This is a link list that only goes one way like the one we are talking about above.
+    doubly link list
+Every node in this list will have two addresses and a value.
+The first node will have an address of null, a value and an address pointing to the next node.
+The last node will also have an address pointing to the previous node, a value and null.
+In this type of list, you can go forward and backward.
 
+    Stack
+This is a linear data structure, and it is used to store data.
+This is an inbuilt class in java.
+Stack follows the "last in first out"(LIFO) principle.
+In stack, you have only one entry point and the same entry point is the exit point.
+When we want to insert data, we use push
+When we want to get data, we use pop
+When the stack is full, and you try to push(insert element) in it, you get an error "Overflow" i.e, stack overflow.
+When the stack is empty, and you try to pop(get element) in it, you get a stack underflow error.
+We use "Peek" to see the last value in the stack. It will not remove it
+    We can implement stack in two ways
+Using Arrays or Linkedlist.
 
+    Queue
+This data structure follows the "first in first out"(FIFO) principle.
+Enqueue - This means to insert data.
+Dequeue - This means to remove data.
+peek - This gives you the value of the element to deque but not remove it.
+circular queue
+Example of queue, A todo list.
+
+    Tree
+In tree, we create different nodes with tree structure.
+    Tree Terminologies
+-Node: Node is somewhere you will put your data, and it will also have a reference for the next element.
+-Root: The node at the top level is the root node.
+-Parent: The root node ie node with no parent.
+-Child: branch of the root node or branch of any node.
+-Edge: The line that connects the parent and child.
+-Leaf node: This is a child node that will be only child, i.e it cannot be a parent.
+-Depth: The number of edge you have to pass to get to a child node.
+-Height: This is the highest depth to get to a child node.
+-Subtree: A tree from a parent tree.
+    Binary tree
+This tree has the maximum number of child node of two.
+That is, the child node can be zero, one or two.
+    Type of Binary Tree
+1)Binary Search Tree: If you want to search up an element in a Binary tree, it is better to save it in a binary search tree.
