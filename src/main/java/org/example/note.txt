@@ -219,3 +219,9 @@ This tree has the maximum number of child node of two.
 That is, the child node can be zero, one or two.
     Type of Binary Tree
 1)Binary Search Tree: If you want to search up an element in a Binary tree, it is better to save it in a binary search tree.
+    Tree Traversal
+There are 3 ways to transverse through a tree
+1)In order traversal: You first go to the left, then you go to the root and then you go to your right.
+2)Pre order traversal: here you first go to the root, the you go to the left and then you go to the right.
+3)Post order traversal: here you go to the left then right then root.
+The difference between this 3 is the way you print your root node.
