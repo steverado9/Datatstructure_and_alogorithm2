@@ -35,7 +35,8 @@ public class Mergesort {
             if(lArr[i] <= rArr[j]) {
                 arr[k] = lArr[i];
                 i++;
-            } else {
+            }
+            else {
                 arr[k] = rArr[i];
                 j++;
             }

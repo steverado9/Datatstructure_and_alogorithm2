@@ -34,8 +34,7 @@ public class Demo {
     public static int binarySearch(int[] nums, int target, int left, int right) {
         //5, 7, 9, 11, 13
         int steps = 0;
-//        int left = 0;
-//        int right = nums.length;
+
 
         if(left <= right) {
             int mid = (left + right)/2;

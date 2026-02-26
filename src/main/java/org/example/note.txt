@@ -70,7 +70,7 @@ if no check if it is less than the mid value
 if yes, our mid is now our end value and we will now divide the array into two using the mid value as the new end value
 check again if the mid value is the value you are searching for
 In worse case scenarios, binary search is faster than linear search.
-The binary search time complexity is not constant with increasing input and it is number of steps do not increase with the number of input so it is O(log n) Logarithmic Time.
+The binary search time complexity is not constant with increasing input and it number of steps do not increase with the number of input so it is O(log n) Logarithmic Time.
     Time complexity
 This is the measure of how the running time of an algorithm increases with the size of the input data.
     How to calculate time complexity
