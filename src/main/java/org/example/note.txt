@@ -55,6 +55,8 @@ As a developer, you must make sure first you application works, then you now opt
 You can optimize in two ways
 1)Space complexity: an algorithm that use less memory
 2)Time complexity: an algorithm that takes less time.
+
+We can learn about Time complexity using searching and sorting.
     How to use linear and binary search
 1)search an element in a sorted array
 we will use two solutions
@@ -66,8 +68,8 @@ That is as your size increases, our number of steps to solve this problem increa
 -binary search
 In binary search, we divide our array into two parts i.e. find the mid-value
 middle value = (start position - end position) / 2
-first check if the value you are searching for is the mid value
-if no check if it is less than the mid value
+first check if the value you are searching for is the mid-value
+if no , check if it is less than the mid-value
 if yes, our mid is now our end value and we will now divide the array into two using the mid value as the new end value
 check again if the mid value is the value you are searching for
 In worse case scenarios, binary search is faster than linear search.
@@ -96,7 +98,7 @@ Whenever building an algorithm, make sure it is between
 or else the application will struggle with increased number of input.
     Practical implementation of linear search O(n) and binary search O(log n)
 We will have a list of element and we want to search for a particular element.
-    Sorting techniques
+     Sorting techniques
 we have diffrent types, some of them are
 -Bubble sort
 -Insertion sort

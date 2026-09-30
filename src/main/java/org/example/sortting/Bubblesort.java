@@ -7,11 +7,11 @@ public class Bubblesort {
         int temp = 0;
 
         System.out.println("before sorting");
-        for(int num: nums) {
+        for(int num : nums) {
             System.out.print(num + " ");
         }
 
-        for (int i = 0; i < size - 1; i++) {
+        for (int i = 0; i < size; i++) {
             for (int j = 0; j < size-i-1; j++) {
                 if (nums[j] > nums[j + 1]) {
                     temp = nums[j];

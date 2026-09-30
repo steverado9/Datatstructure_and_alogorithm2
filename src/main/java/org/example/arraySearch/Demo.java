@@ -5,14 +5,13 @@ public class Demo {
 
         int nums[] = {5, 7, 9, 11, 13};
 
-        int target = 9;
+        int target = 13;
 
-        int result1 = linearSearch(nums, target);
-        //making it recursive
-        int result2 = binarySearch(nums, target, 0, nums.length );
+        int linearResult = linearSearch(nums, target);
+        int binaryResult = binarySearch(nums, target, 0, nums.length - 1);
 
-        if(result2 != -1)
-            System.out.println("Element found at index : " + result2);
+        if(binaryResult != -1)
+            System.out.println("Element found at index : " + binaryResult);
         else
             System.out.println("Element not found");
 
@@ -35,32 +34,20 @@ public class Demo {
         //5, 7, 9, 11, 13
         int steps = 0;
 
-
-        if(left <= right) {
+        while(left <= right) {
+            steps++;
             int mid = (left + right)/2;
+
             if (nums[mid] == target) {
+                System.out.println("steps for binary: " + steps);
                 return mid;
             } else if (nums[mid] < target) {
-                return binarySearch(nums, target, mid+1, right);
+                left = mid + 1;
             } else {
-                return binarySearch(nums, target, left, mid-1);
+                right = mid -1;
             }
         }
-
-//        while(left <= right) {
-//            steps++;
-//            int mid = (left + right)/2;
-//
-//            if (nums[mid] == target) {
-//                System.out.println("steps for binary: " + steps);
-//                return mid;
-//            } else if (nums[mid] < target) {
-//                left = mid + 1;
-//            } else {
-//                right = mid -1;
-//            }
-//        }
-//        System.out.println("steps for binary: " + steps);
+        System.out.println("steps for binary: " + steps);
         return -1;
     }
 }
