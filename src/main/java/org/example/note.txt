@@ -98,7 +98,7 @@ Whenever building an algorithm, make sure it is between
 or else the application will struggle with increased number of input.
     Practical implementation of linear search O(n) and binary search O(log n)
 We will have a list of element and we want to search for a particular element.
-     Sorting techniques
+      Sorting techniques
 we have diffrent types, some of them are
 -Bubble sort
 -Insertion sort
@@ -121,6 +121,8 @@ The time complexity is also O(n^2)
     Insertion sort
 This method just takes the element and put them at the right location.
 We do not use swapping here, we use shifting
+In this method, we assume the first element is already sorted, so we started the check from the last element
+and we check compare and shift the values to the right location.
 The time complexity for this algorithm is Big O(n^2)
     Quick sort
 The time complexity for this algorithm in the best case is O(n log(n)) and in the worse case is O(n^2).
