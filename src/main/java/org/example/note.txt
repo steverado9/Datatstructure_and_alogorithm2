@@ -88,7 +88,7 @@ We use Big O Notation to understand the time complexity of an algorithm.
     constant time Big O(1)
 searching for a particular element in an array using its index is always done at constant time
 No matter the number of inputs, as long as you use the index to search for an element,the time is always constant.
-As long as the algorithm takes the same number of steps, no matter the size of the input we say it is done at constant time.
+As long as the algorithm takes the sa me number of steps, no matter the size of the input we say it is done at constant time.
     worse case scenario: what if the element we are looking for is at the end of the array
 That means as our array size increases, the number of steps also increases that will be Big O(n), n = number of elements in the array ie linear time
 Whenever building an algorithm, make sure it is between
@@ -136,11 +136,15 @@ We divide first, we conquer and then we combine
 i.e we break the problems into subsections, we will apply the algorithm on each subsections and then we get a solution for each subsections and then you will merge to get your desired result.
     Tree Structure
 That is a root element and branches from the root element.
+    Types of tree structure
+1)Binary tree: each node or element will  be two(two branches)
+
     Recursion
 A function is used to achieve a particular task.
 eg print, search, add2numbers, processPayment, all this happens with the help of functions.
 A function calling itself is called recursion.
 recursion can serve as a loop, all you have to do is add a condition so it can stop.
+You can do what a for loop does with recursion.
 example of a recursion is "find a factorial".
     Merge sort
 This has a time complexity of O(n log(n)).
@@ -157,6 +161,8 @@ since they are single values, they are already sorted
 Then we merge
 But before merging, you compare the values
     Linked list
+The size of an array is fixed, thats the major challenge.
+That why we moved to list. A linkedlist is dynamic.
 In linked list, the values are stored in a node.
 and the node takes a value(data) and an address(reference of the next node)
 The address stores a reference of the next node.
