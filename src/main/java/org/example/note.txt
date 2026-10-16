@@ -161,6 +161,8 @@ since they are single values, they are already sorted
 Then we merge
 But before merging, you compare the values
     Linked list
+To get the element in an ArryaList, is faster than a link list
+To get the element of a linklist, you have to go through all the element and find the element link to it.
 The size of an array is fixed, thats the major challenge.
 That why we moved to list. A linkedlist is dynamic.
 In linked list, the values are stored in a node.
